@@ -20,7 +20,7 @@ import * as SplashScreen from 'expo-splash-screen';
 SplashScreen.preventAutoHideAsync();
 
 let customFonts = {
-  "Consola": require("../assets/fonts/BubblegumSans-Regular.ttf"),
+  "Consola": require("../assets/fonts/Consolas.ttf"),
 };
 
 const appIcon = require("../assets/copadobrasil2.png");

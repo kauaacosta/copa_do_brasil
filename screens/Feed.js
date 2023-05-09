@@ -17,7 +17,7 @@ import { FlatList } from "react-native-gesture-handler";
 import firebase from "firebase";
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf")
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf")
 };
 
 let stories = require("./temp_stories.json");

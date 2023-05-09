@@ -17,7 +17,7 @@ import * as Font from "expo-font";
 import firebase from "firebase";
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/rodadascdb.png")
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf")
 };
 
 export default class StoryCard extends Component {
@@ -80,8 +80,8 @@ export default class StoryCard extends Component {
       return <AppLoading />;
     } else {
       let images = {
-        image_1: require("../assets/story_image_1.png"),
-        image_2: require("../assets/story_image_2.png"),
+        image_1: require("../assets/fluminense.webp"),
+        image_2: require("../assets/FlaFlu.webp"),
         image_3: require("../assets/story_image_3.png"),
         image_4: require("../assets/story_image_4.png"),
         image_5: require("../assets/story_image_5.png")
@@ -213,22 +213,22 @@ const styles = StyleSheet.create({
     flex: 0.2
   },
   storyTitleText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     color: "white"
   },
   storyTitleTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     color: "black"
   },
   storyAuthorText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(18),
     color: "white"
   },
   storyAuthorTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(18),
     color: "black"
   },
@@ -236,12 +236,12 @@ const styles = StyleSheet.create({
     marginTop: RFValue(5)
   },
   descriptionText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(13),
     color: "white"
   },
   descriptionTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(13),
     color: "black"
   },
@@ -271,13 +271,13 @@ const styles = StyleSheet.create({
   },
   likeText: {
     color: "white",
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: 25,
     marginLeft: 25,
     marginTop: 6
   },
   likeTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: 25,
     marginLeft: 25,
     marginTop: 6

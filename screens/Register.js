@@ -20,7 +20,7 @@ import * as SplashScreen from 'expo-splash-screen';
 SplashScreen.preventAutoHideAsync();
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf"),
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf"),
 };
 
 const appIcon = require("../assets/logo.png");

@@ -20,7 +20,7 @@ import * as Font from "expo-font";
 import firebase from "firebase";
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/rodadascdb.png")
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf")
 };
 
 export default class StoryScreen extends Component {
@@ -122,7 +122,7 @@ export default class StoryScreen extends Component {
                     : styles.appTitleText
                 }
               >
-                App Narração de Histórias
+                APP COPA DO BRASIL
               </Text>
             </View>
           </View>
@@ -281,12 +281,12 @@ const styles = StyleSheet.create({
   appTitleText: {
     color: "white",
     fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   appTitleTextLight: {
     color: "black",
     fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   storyContainer: {
     flex: 1
@@ -325,22 +325,22 @@ const styles = StyleSheet.create({
     flex: 0.8
   },
   storyTitleText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     color: "white"
   },
   storyTitleTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     color: "black"
   },
   storyAuthorText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(18),
     color: "white"
   },
   storyAuthorTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(18),
     color: "black"
   },
@@ -351,22 +351,22 @@ const styles = StyleSheet.create({
     padding: RFValue(20)
   },
   storyText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(15),
     color: "white"
   },
   storyTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(15),
     color: "black"
   },
   moralText: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(20),
     color: "white"
   },
   moralTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(20),
     color: "black"
   },
@@ -396,12 +396,12 @@ const styles = StyleSheet.create({
   },
   likeText: {
     color: "white",
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     marginLeft: RFValue(5)
   },
   likeTextLight: {
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     fontSize: RFValue(25),
     marginLeft: RFValue(5)
   }

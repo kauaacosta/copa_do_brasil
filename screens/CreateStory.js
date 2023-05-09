@@ -20,7 +20,7 @@ import * as Font from "expo-font";
 import firebase from "firebase";
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf")
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf")
 };
 
 export default class CreateStory extends Component {
@@ -116,7 +116,7 @@ export default class CreateStory extends Component {
           <View style={styles.appTitle}>
             <View style={styles.appIcon}>
               <Image
-                source={require("../assets/logo.png")}
+                source={require("../assets/rodadascdb.png")}
                 style={styles.iconImage}
               ></Image>
             </View>
@@ -128,7 +128,7 @@ export default class CreateStory extends Component {
                     : styles.appTitleText
                 }
               >
-                Nova História
+                APP COPA DO BRASIL
               </Text>
             </View>
           </View>
@@ -288,8 +288,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   iconImage: {
-    width: "100%",
-    height: "100%",
+    width: "200%",
+    height: "250%",
     resizeMode: "contain"
   },
   appTitleTextContainer: {
@@ -298,13 +298,13 @@ const styles = StyleSheet.create({
   },
   appTitleText: {
     color: "white",
-    fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontSize: RFValue(32),
+    fontFamily: "Consolas"
   },
   appTitleTextLight: {
     color: "black",
     fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   fieldsContainer: {
     flex: 0.85
@@ -324,7 +324,7 @@ const styles = StyleSheet.create({
     borderRadius: RFValue(10),
     paddingLeft: RFValue(10),
     color: "white",
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   inputFontLight: {
     height: RFValue(40),
@@ -333,15 +333,15 @@ const styles = StyleSheet.create({
     borderRadius: RFValue(10),
     paddingLeft: RFValue(10),
     color: "black",
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   dropdownLabel: {
     color: "white",
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   dropdownLabelLight: {
     color: "black",
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   inputFontExtra: {
     marginTop: RFValue(15)

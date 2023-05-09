@@ -16,7 +16,7 @@ import * as Font from "expo-font";
 import firebase from "firebase";
 
 let customFonts = {
-  "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf")
+  "Bubblegum-Sans": require("../assets/fonts/Consolas.ttf")
 };
 
 export default class Profile extends Component {
@@ -87,7 +87,7 @@ export default class Profile extends Component {
           <View style={styles.appTitle}>
             <View style={styles.appIcon}>
               <Image
-                source={require("../assets/logo.png")}
+                source={require("../assets/rodadascdb.png")}
                 style={styles.iconImage}
               ></Image>
             </View>
@@ -99,7 +99,7 @@ export default class Profile extends Component {
                     : styles.appTitleText
                 }
               >
-                App Narração de Histórias
+                APP COPA DO BRASIL
               </Text>
             </View>
           </View>
@@ -173,8 +173,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   iconImage: {
-    width: "100%",
-    height: "100%",
+    width: "200%",
+    height: "250%",
     resizeMode: "contain"
   },
   appTitleTextContainer: {
@@ -183,13 +183,13 @@ const styles = StyleSheet.create({
   },
   appTitleText: {
     color: "white",
-    fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontSize: RFValue(32),
+    fontFamily: "Consolas"
   },
   appTitleTextLight: {
     color: "black",
     fontSize: RFValue(28),
-    fontFamily: "Bubblegum-Sans"
+    fontFamily: "Consolas"
   },
   screenContainer: {
     flex: 0.85
@@ -208,13 +208,13 @@ const styles = StyleSheet.create({
   nameText: {
     color: "white",
     fontSize: RFValue(40),
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     marginTop: RFValue(10)
   },
   nameTextLight: {
     color: "black",
     fontSize: RFValue(40),
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     marginTop: RFValue(10)
   },
   themeContainer: {
@@ -226,13 +226,13 @@ const styles = StyleSheet.create({
   themeText: {
     color: "white",
     fontSize: RFValue(30),
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     marginRight: RFValue(15)
   },
   themeTextLight: {
     color: "black",
     fontSize: RFValue(30),
-    fontFamily: "Bubblegum-Sans",
+    fontFamily: "Consolas",
     marginRight: RFValue(15)
   }
 });
